@@ -22,31 +22,32 @@ body {
 }
 header {
     display:flex;
-    justify-content: space-around;
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
-    padding: .8rem;
+    padding: .8rem 1rem;
     background-color: #292727;
     min-height: 50px;
     padding-left: .2rem;
+    
+    
 
 }
 .box-img-header {
     height: 100%;
+    align-items: center;
 }
 .img-logo {
     max-width: 70px;
     height: 100%;
-    margin-left: 0;
+    margin-left: 5rem;
 }
 
 nav {
     display: flex;
     gap: 2rem;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    flex: 0.9;
 }
 
 .nav-link {
